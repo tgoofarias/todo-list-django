@@ -1,0 +1,54 @@
+body {
+    color: white;
+    background: linear-gradient(50deg, #49226e, #764a9f, #b59ecd);
+    background-size: 100% 100%;
+    animation: movinggradient 5s ease infinite;
+    background-size: 200%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+@keyframes movinggradient{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    0%{
+        background-position: 0% 50%;
+    }
+}
+
+.frame {
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #49226e;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;   
+}
+
+.form_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.update__button {
+    margin-left: 50px;
+}
+
+.__checkbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.completed {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-bottom: 15px;;
+}
